@@ -12,8 +12,11 @@
   <% end %>
 
   <div class="actions">
-    <%= f.text_field :email %> <br />
-    <%= f.text_field :subject %> <br />
+    <label>email</label>
+  <%= f.text_field :email %> <br />
+  <label>onderwerp</label>
+  <%= f.text_field :subject %> <br />
+  <label>bericht</label>
     <%= f.text_area :body %> <br />
     <%= f.submit %>
   </div>

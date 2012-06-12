@@ -9,3 +9,4 @@ def helpdesk_notification(feedback_message)
     mail(:to => "robingruys@gmail.com" ,:from => feedback_message.email, :subject => feedback_message.subject)
   end
 
+#test
